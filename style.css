@@ -1,0 +1,113 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap'); */
+:root {
+    --main-bg-color:#28a7f0;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+        background: var(--main-bg-color); 
+      
+    font-family: 'Public Sans', sans-serif;
+
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 23px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 55px;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    /* color: rgb(40, 14, 206); */
+    font-weight: bold;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 23px;
+    width: 500px;
+    border-radius: 6px;
+    margin: 0 13px 0 55px;
+    padding: 0 12px;
+}
+.container{
+    min-height: calc(100vh - 55px - 8vh);
+    
+}
+.image{
+    padding: 55px 44px;
+   
+}
+h3 a{
+    color: #010101;
+    padding: 0 130px;
+    font-size: 32px;
+    font-style:italic;
+    text-decoration: none;
+}
+footer{
+    height: 8vh;
+    background: var(--main-bg-color);
+    color: white;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Public Sans', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgb(236, 159, 159), rgb(255, 9, 136));
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+   
+}
+.card h2{
+    font-family: 'Public Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(51, 0, 255);
+}
+.card-item{
+    display: inline flex;
+    justify-content:center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
